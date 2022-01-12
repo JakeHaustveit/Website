@@ -4,15 +4,58 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-align: center;
 }
+
+
+nav {
+  background-color: rgb(88, 80, 80);
+  overflow: hidden;
+  margin-bottom: 20px;
+
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
+  color: #080707;
+  background-color: rgb(88, 80, 80);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(88, 80, 80);
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: #04AA6D;
+  color: rgb(250, 245, 249);
+}
+
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
+.image {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+}
+
 * {
   box-sizing: border-box;
-  color: rgb(61, 197, 79);
-  background-color: rgb(116, 98, 91);
+  color: rgb(28, 219, 76);
+  background-color: rgb(245, 240, 238);
 }
+
+
+
